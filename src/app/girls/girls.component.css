@@ -1,0 +1,14 @@
+.hello{
+    border:1px solid;
+    width: fit-content;
+    background-color:aquamarine;
+    float:left;
+    margin: 5px;
+}
+button{
+    color:green;
+    border-radius: 90px;
+}
+/*img {
+    float:left;
+}*/

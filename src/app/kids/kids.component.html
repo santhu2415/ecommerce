@@ -1,0 +1,12 @@
+<p>kids works!</p>
+<h1>{{age1to5}}</h1>
+<h2>{{age5to10}}</h2>
+<ul>
+    <li class="hello" *ngFor="let kid of kids">
+        <p>{{kid.name}}</p>
+        <label><strong>{{kid.price}}</strong>/</label><br>
+        <img src="{{kid.image}}" width="100" height="100"><br>
+        <button (click)="callbuynowfunction(kid)">Buynow</button>
+    </li>
+</ul>
+<p id="demo"></p>

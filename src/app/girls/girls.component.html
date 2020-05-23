@@ -1,0 +1,16 @@
+<p>girls works!</p>
+<h1>{{age1to10}}</h1>
+<h2>{{age10to15}}</h2>
+<ul>
+    <li class="hello"*ngFor="let girl of girls">
+        <p>{{girl.name}}</p><br>
+        <label><strong>{{girl.price}}</strong></label><br>
+        <img src="{{girl.image}}" width="100" height="100" float=left>
+        <br>
+        <button (click)="callbuynowfunction(girl)">Buynow</button>
+        <!--price-->
+        <!--<img src="-->
+        <!--button-->
+        
+    </li>
+</ul>

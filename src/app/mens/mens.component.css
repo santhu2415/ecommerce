@@ -1,0 +1,11 @@
+.hello{
+    border:1px solid;
+    background-color: midnightblue;
+    width: fit-content;
+    float: left;
+    margin: 5px;
+}
+button{
+    color:grey;
+    border-radius: 90px;
+}

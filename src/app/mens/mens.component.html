@@ -1,0 +1,11 @@
+<p>mens works!</p>
+<h1>{{myname}}</h1>
+<h2>{{mybrothername}}</h2>
+<ul>
+    <li class="hello" *ngFor="let men of  mens">
+        <p>{{ men.name }}</p>
+        <label><strong>{{men.price}}</strong></label><br>
+        <img src="{{men.image}}" width="100" height="100"><br>
+        <button (click)="callbuynow(men)">Buynow</button>
+    </li>
+</ul>
